@@ -13,6 +13,14 @@ Testing environment - https://clickbus-back-api.herokuapp.com/
 <pre>grails prod run-app</pre>
 
 # Endpoints
+
+### Search Places
+<pre>GET /places/search
+Params  | Values
+------- | -------------
+q       | Query to find in the name field
+max     | Set max results
+</pre>
 ### List Places
 <pre>GET /place
 GET /places</pre>
